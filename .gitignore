@@ -1,0 +1,26 @@
+# macOS System Files
+.DS_Store
+.Trashes
+.cache
+
+# Python Basics
+__pycache__/
+venv/
+
+# Logs (Runtime)
+*.log
+ids_events.log
+
+# IDS Data & Databases (Large/Sensitive)
+*.pcap
+*.db
+*.json
+
+# Specific Ignore Rules for Project Folders
+data/*.pcapvenv/
+__pycache__/
+*.pcap
+*.log
+*.db
+.DS_Store
+data/*.pcap
